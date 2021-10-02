@@ -2,7 +2,7 @@
 echo Executing after success scripts on branch $TRAVIS_BRANCH
 echo Triggering Nuget package build
 
-cd src/Convey/src/Convey
+cd src/Shared/src/Shared
 dotnet pack -c release /p:PackageVersion=0.5.$TRAVIS_BUILD_NUMBER --no-restore -o .
 
 echo Uploading Convey package to Nuget using branch $TRAVIS_BRANCH
