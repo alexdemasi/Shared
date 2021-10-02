@@ -7,11 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7E1B690-559
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Logging", "src\Shared.Logging\src\Shared.Logging\Shared.Logging.csproj", "{B0BE4921-8757-4552-A398-A0A4322341EC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{501AEF37-C148-4DED-BAA8-5C07D16569A3}"
-	ProjectSection(SolutionItems) = preProject
-		dotnet-pack.sh = dotnet-pack.sh
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared.Logging", "Shared.Logging", "{995CDA71-2C97-49AC-968A-76CB6C0194D4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{188C8187-F31F-4760-9479-31A61FA41E8C}"
@@ -20,23 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C32C68D1-F40
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "src\Shared\src\Shared.csproj", "{828DA940-EA9C-4CE5-B087-223E928FFA32}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{EFC4EC6B-37C6-4C9F-A174-A4EAF153C806}"
-	ProjectSection(SolutionItems) = preProject
-		src\Shared\scripts\dotnet-build.sh = src\Shared\scripts\dotnet-build.sh
-	EndProjectSection
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{968F6FF5-375F-4B3E-B9E6-7236F380ED3F}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{36099A44-AC28-4580-8933-AC65C3D311C8}"
-	ProjectSection(SolutionItems) = preProject
-		scripts\pack.sh = scripts\pack.sh
-	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E83EA991-BEC5-49FE-8BAA-24BDE0920ABD}"
 	ProjectSection(SolutionItems) = preProject
 		.gitattributes = .gitattributes
 		.gitignore = .gitignore
-		.travis.yml = .travis.yml
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -61,12 +45,10 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D7E1B690-559F-4120-8BE6-3E7D4D93F454} = {995CDA71-2C97-49AC-968A-76CB6C0194D4}
 		{B0BE4921-8757-4552-A398-A0A4322341EC} = {D7E1B690-559F-4120-8BE6-3E7D4D93F454}
-		{501AEF37-C148-4DED-BAA8-5C07D16569A3} = {995CDA71-2C97-49AC-968A-76CB6C0194D4}
 		{995CDA71-2C97-49AC-968A-76CB6C0194D4} = {968F6FF5-375F-4B3E-B9E6-7236F380ED3F}
 		{188C8187-F31F-4760-9479-31A61FA41E8C} = {968F6FF5-375F-4B3E-B9E6-7236F380ED3F}
 		{C32C68D1-F407-4B24-8334-961173F06876} = {188C8187-F31F-4760-9479-31A61FA41E8C}
 		{828DA940-EA9C-4CE5-B087-223E928FFA32} = {C32C68D1-F407-4B24-8334-961173F06876}
-		{EFC4EC6B-37C6-4C9F-A174-A4EAF153C806} = {188C8187-F31F-4760-9479-31A61FA41E8C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {40AF6A5D-6A58-41A8-B469-0F5B6B715178}
