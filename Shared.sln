@@ -22,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "src\Shared\src\Sh
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{EFC4EC6B-37C6-4C9F-A174-A4EAF153C806}"
 	ProjectSection(SolutionItems) = preProject
-		src\Shared\scripts\dotnet-build.sh = src\Shared\scripts\dotnet-build.sh
+		src\Shared\scripts\dotnet-pack.sh = src\Shared\scripts\dotnet-pack.sh
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{968F6FF5-375F-4B3E-B9E6-7236F380ED3F}"
